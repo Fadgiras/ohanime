@@ -1,0 +1,127 @@
+*
+{
+    background-color: #023a46;
+    color: white;
+    text-shadow: grey 1px 1px;
+}
+ 
+header
+{
+    text-align : center;
+
+}
+ 
+nav ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /background-color: #ff3333;/
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color: white;
+   / border-style: double;/
+}
+ 
+nav li
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+nav li a
+{
+    text-decoration: none;
+    color: white;
+    border-style: groove;
+    border-color: white;
+	padding: 5px 10px;
+    font-size: 150%;
+    text-shadow: grey 1px 1px;
+    background-color: black;
+    border-radius: 8px;
+}
+ 
+nav li a:hover
+{
+    background-color: #241e24;
+    border-color: white;
+    box-shadow: 3px 3px 3px black inset;
+    color: red;
+    text-shadow: 1px 1px #990000;
+} 
+p
+{
+    text-align: center;
+    font-size: 17px;
+}
+ 
+#catalogue {
+    float: left;
+    display: inline;
+}
+ 
+#panier {
+    display: inline;
+    border: 1px solid black;
+    float : right;
+    width: 20em;
+    padding: 0 1em 1em;
+}
+ 
+#categorie-liste {
+    display: inline;
+    float: left;
+    width: 14em;
+}
+ 
+#produit {
+    float: left;
+}
+ 
+#copy {
+    clear : both;
+}
+ 
+ 
+ 
+ 
+ 
+img.resize {
+    float: left;
+    width : 150px;
+    height : 150px;
+}
+ 
+img.resize2 {
+    float: left;
+    width : 150px;
+    height : 150px;
+}
+ 
+.onglets
+{
+ 
+text-align: center;
+margin-left: 10px;
+text-decoration: none;
+color : #fff;
+padding : 6px;
+background-color: black;
+border-style:groove;
+border-radius: 8px;
+float : left;
+margin : -40px 8px 0 4px;  /* Pour les navigateurs autre que IE */
+}
+.onglets:hover
+{
+background : #241e24;
+color : red;
+}
+
+.menu
+{
+text-align: center;
+margin-left: 500px;
+}
